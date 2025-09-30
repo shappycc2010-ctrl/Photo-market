@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: photomarket-backend
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
